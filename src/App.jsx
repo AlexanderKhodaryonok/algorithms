@@ -1,9 +1,7 @@
 // import { createSquaredNArray, fillSquaredNArray, replaceDiagonals } from './algorithms/nDimSquaredArray';
-import { formatDuration } from './algorithms/humanReadableDurationFormat';
+import {} from './algorithms/simplePigLatin';
 
 function App() {
-    formatDuration(3662)
-  // incrementString('foobar00999')
   return <div />;
 }
 
