@@ -7,5 +7,6 @@ describe("Test pigIt", () => {
     expect(pigIt('Hello world !')).toEqual("elloHay orldway !");
     expect(pigIt('Pig latin is cool')).toEqual("igPay atinlay siay oolcay");
     expect(pigIt('O tempora o mores !')).toEqual("Oay emporatay oay oresmay !");
+    expect(pigIt('O tempora o mores!')).toEqual("Oay emporatay oay oresmay!");
   });
 });
